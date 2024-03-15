@@ -1,0 +1,924 @@
+*{  margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgba(177, 173, 173, 0.952);
+    height:100vh;
+}
+.container-1{
+    display:flex;
+    flex-direction: row;
+    background-color:black;
+    width:34%;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box{
+    padding:14px 8px;
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.container-2{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width:34%;
+    justify-content: center;
+    margin-top:40px;
+    border:2px solid red;
+}
+.container-3{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    width:34%;
+    justify-content:end;
+    margin-top:40px;
+    border:2px solid red;
+}
+.container-4{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    width:34%;
+    justify-content: space-around;
+    margin-top:40px;
+    border:2px solid red;
+}
+.container-5{
+    display:flex;
+    flex-direction:row;
+    background-color:black;
+    width:34%;
+    justify-content: space-between;
+    margin-top:40px;
+    border:2px solid red;
+}
+.container-6{
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+    width:34%;
+    justify-content: space-evenly;
+    margin-top:40px;
+    border:2px solid red;
+}
+.drawer{
+    padding:80px 5px;
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    font-size:26px;
+}
+.container-7{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width:34%;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.cabinet{
+    padding:20px 4px;
+    height:80px;
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    font-size:26px;
+}
+.box1{
+    background-color: rgb(241, 30, 65);
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: purple;
+}
+.box4{
+    background-color: rgb(20, 20, 250);
+    font-size:44px;
+}
+.box5{
+    background-color: aqua;
+}
+.box6{
+    background-color: rgb(3, 153, 3);
+}
+.box7{
+    background-color: yellowgreen;
+}
+.box8{
+    background-color: yellow;
+}
+.box9{
+    background-color: rgb(255, 153, 0);
+}
+.box10{
+    background-color: brown;
+}
+.container-8{
+    display:flex;
+    flex-direction: row;
+    width:34%;
+    height:200px;
+    background-color: black;
+    margin-top:40px;
+    border:2px solid red;
+    
+}
+.container-9{
+   display:flex;
+   flex-direction: row;
+   align-items: flex-start;
+   width:34%;
+   height:200px;
+   background-color:black;
+   border:2px solid red;
+   margin-top:18px;
+}
+.card1,
+.card2,
+.card6,
+.card9,
+.card10{
+    padding:14px 10px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    height:40px;
+}
+.card4{
+    font-weight:bold;
+    font-size:16px;
+    color:white;
+    height:60px;
+    padding:14px 10px;
+}
+.card3,
+.card7{
+    padding:9px 5px;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    height:30px;
+}
+.card5{
+    font-weight:bold;
+    font-size:34px;
+    padding:20px 16px;
+    color:white;
+    height:64px;
+}
+.card8{
+    font-weight:bold;
+    font-size:40px;
+    padding:40px 24px;
+    color:white;
+    height:100px;
+}
+.card-1{
+    background-color: rgb(241, 30, 65);
+}
+.card-2{
+    background-color: blueviolet;
+}
+.card-3{
+    background-color: purple;
+}
+.card-4{
+    background-color: rgb(20, 20, 250);
+    font-size:44px;
+}
+.card-5{
+    background-color: aqua;
+}
+.card-6{
+    background-color: rgb(3, 153, 3);
+}
+.card-7{
+    background-color: yellowgreen;
+}
+.card-8{
+    background-color: yellow;
+}
+.card-9{
+    background-color: rgb(255, 153, 0);
+}
+.card-10{
+    background-color: brown;
+}
+.container-10{
+    height:200px;
+    width:34%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box{
+    padding:14px 8px;
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+    height:60px;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.container-11{
+    height:200px;
+    width:34%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box{
+    padding:14px 8px;
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+    height:60px;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.container-12{
+    height:200px;
+    width:34%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-end;
+    background-color: black;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box{
+    padding:14px 8px;
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+    height:60px;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.container-13{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width:34%;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.drawer{
+    padding:80px 5px;
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    font-size:26px;
+}
+ .drawer-3{
+    padding:14px 10px;
+    border-radius: 1px;
+    color:white;
+    font-weight:bold;
+    height:40px;
+ }
+ .container-14{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    width:34%;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.drawer{
+    padding:80px 5px;
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    font-size:26px;
+}
+ .drawer-3{
+    padding:14px 10px;
+    border-radius: 1px;
+    color:white;
+    font-weight:bold;
+    height:40px;
+ }
+ .container-15{
+    display:flex;
+    flex-direction: row;
+    align-items:flex-end;
+    background-color: black;
+    width:34%;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.drawer{
+    padding:80px 5px;
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    font-size:26px;
+}
+ .drawer-3{
+    padding:14px 10px;
+    border-radius: 1px;
+    color:white;
+    font-weight:bold;
+    height:40px;
+ }
+ .container-11{
+    height:200px;
+    width:34%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box{
+    padding:14px 8px;
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+    height:60px;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}.container-16{
+    height:200px;
+    width:34%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box{
+    padding:14px 8px;
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+    height:60px;
+}
+.page{
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+    padding:84px 10px;
+    text-align:center;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.drawer{
+    padding:80px 5px;
+    border-radius:3px;
+    color:white;
+    font-weight:bold;
+    font-size:26px;
+}
+.container-17{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    width:34%;
+    margin-top:40px;
+    border:2px solid red;
+}
+.box-1{
+    background-color: rgb(241, 30, 65);
+}
+.box-2{
+    background-color: blueviolet;
+}
+.box-3{
+    background-color: purple;
+}
+.box-4{
+    background-color: rgb(20, 20, 250);
+}
+.box-5{
+    background-color: aqua;
+}
+.box-6{
+    background-color: rgb(3, 153, 3);
+}
+.box-7{
+    background-color: yellowgreen;
+}
+.box-8{
+    background-color: yellow;
+}
+.box-9{
+    background-color: rgb(255, 153, 0);
+}
+.box-10{
+    background-color: brown;
+}
+.box{
+    padding:14px 8px;
+    border-radius:4px;
+    color:white;
+    font-weight:bold;
+    font-size:28px;
+}
+.drawer-3{
+    padding:11px 10 px;
+    border-radius:1px;
+    color:white;
+    font-weight:bold;
+    height:22px;
+}
+.drawer4{
+    padding:25px 15px;
+    font-weight:bold;
+    font-size:27px;
+    height:50px;
+    color:white;
+}
+.drawer5{
+    padding:15px 8px;
+    color:white;
+    font-weight:bold;
+    height:30px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-18{
+  display:flex;
+  flex-direction:row;
+  width:34%;
+  height:300px;
+  border:2px solid red;
+  background-color: black;
+  justify-content: flex;
+  margin-top:30px;
+}
+#row1,
+#row2,
+#row3{
+    display:flex;
+    flex-direction:column;
+    width:34%;
+    height:70px;
+}
+.square{
+    padding:10px 30px;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    height:70px;
+}
+.square-1{
+    background-color: rgb(241, 30, 65);
+}
+.square-2{
+    background-color: blueviolet;
+}
+.square-3{
+    background-color: purple;
+}
+.square-4{
+    background-color: rgb(20, 20, 250);
+}
+.square-5{
+    background-color: aqua;
+}
+.square-6{
+    background-color: rgb(3, 153, 3);
+}
+.square-7{
+    background-color: yellowgreen;
+}
+.square-8{
+    background-color: yellow;
+}
+.square-9{
+    background-color: rgb(255, 153, 0);
+}
+.square-10{
+    background-color: brown;
+}
+.container-19{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width:34%;
+    height:360px;
+    border:2px solid red;
+    background-color: black;
+    margin-top:30px;
+  }
+  #row1,
+  #row2,
+  #row3{
+      display:flex;
+      flex-direction:column;
+      width:34%;
+      height:70px;
+  }
+  .square{
+      padding:10px 30px;
+      color:white;
+      font-weight:bold;
+      font-size:20px;
+      height:70px;
+  }
+  .square-1{
+      background-color: rgb(241, 30, 65);
+  }
+  .square-2{
+      background-color: blueviolet;
+  }
+  .square-3{
+      background-color: purple;
+  }
+  .square-4{
+      background-color: rgb(20, 20, 250);
+  }
+  .square-5{
+      background-color: aqua;
+  }
+  .square-6{
+      background-color: rgb(3, 153, 3);
+  }
+  .square-7{
+      background-color: yellowgreen;
+  }
+  .square-8{
+      background-color: yellow;
+  }
+  .square-9{
+      background-color: rgb(255, 153, 0);
+  }
+  .square-10{
+      background-color: brown;
+  }
+  .container-20{
+    display:flex;
+    flex-direction:row;
+    align-items:self-end;
+    width:34%;
+    height:360px;
+    border:2px solid red;
+    background-color: black;
+    margin-top:30px;
+  }
+  #row1,
+  #row2,
+  #row3{
+      display:flex;
+      flex-direction:column;
+      width:34%;
+      height:70px;
+  }
+  .square{
+      padding:10px 30px;
+      color:white;
+      font-weight:bold;
+      font-size:20px;
+      height:70px;
+  }
+  .square-1{
+      background-color: rgb(241, 30, 65);
+  }
+  .square-2{
+      background-color: blueviolet;
+  }
+  .square-3{
+      background-color: purple;
+  }
+  .square-4{
+      background-color: rgb(20, 20, 250);
+  }
+  .square-5{
+      background-color: aqua;
+  }
+  .square-6{
+      background-color: rgb(3, 153, 3);
+  }
+  .square-7{
+      background-color: yellowgreen;
+  }
+  .square-8{
+      background-color: yellow;
+  }
+  .square-9{
+      background-color: rgb(255, 153, 0);
+  }
+  .square-10{
+      background-color: brown;
+  }
